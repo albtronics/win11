@@ -1,0 +1,353 @@
+{
+  "uuid": "e36bddb2f1cbc059aae4db335f9e0d9c",
+  "path": "Offline/Ground_Station",
+  "name": "Ground_Station",
+  "content": "CANSAT GROUND STATION PROJECT.\nMADE BY: ALBIN JOSEPH C.R\nhttps://albtronics.wordpress.com/",
+  "created_at": "2021-06-25 12:12:44",
+  "updated_at": "2021-06-25 12:14:51",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "8d3edf87d1b5477d7a6e3e70ab338606",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2bfda8c701df4b6db8594acc26a25912": 3,
+        "834b9c158a824ad4acb8dee1ca9bb962": 1,
+        "023a253ac94e4751b99dc3833fd924d0": 5,
+        "d1967012734640e5b2f2cc1ea764740b": 5,
+        "441d52b82ec943fe96ee9d001e2ae477": 1,
+        "ba1f207f2c0447edbd5beb657b435022": 2,
+        "00c3d925fb684a20b34af7df9673fdf1": 1,
+        "b81e1cee650540368411a5bb71b5b423": 1,
+        "7f9c6d4d878346f99916c580bc848141": 2,
+        "c13b927e4f49498d835e7a26b5481d31": 2,
+        "6120522a8db139790c57da44f34e914a": 1,
+        "146e75363251e035203be60c60650418": 1,
+        "56f8b2b64a544f3d820bc0399720da54": 2,
+        "595f1b159cbb1fc2159315f85f2042a1": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "AVR_SPI_PROG",
+          1,
+          "PA_M3X2",
+          "ICSP1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "3a7d5849e4a94ca1b1504e01ca7d0ccf",
+            "uuid": "00c3d925fb684a20b34af7df9673fdf1"
+          }
+        ],
+        [
+          "100uF",
+          1,
+          "C1206",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "2bfda8c701df4b6db8594acc26a25912"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "C1206",
+          "C4,C5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "2bfda8c701df4b6db8594acc26a25912"
+          }
+        ],
+        [
+          "Rx",
+          1,
+          "LED1206-RD",
+          "LED4",
+          {
+            "BOM_Manufacturer": "方舟 ARKLED",
+            "BOM_Manufacturer Part": "D-B080508B1-KS2",
+            "BOM_Supplier Part": "C108412",
+            "BOM_Supplier": "",
+            "puuid": "3f21a2531f5a413d88c730f61daca683",
+            "uuid": "7f9c6d4d878346f99916c580bc848141"
+          }
+        ],
+        [
+          "Tx",
+          1,
+          "LED1206-RD",
+          "LED3",
+          {
+            "BOM_Manufacturer": "方舟 ARKLED",
+            "BOM_Manufacturer Part": "D-B080508B1-KS2",
+            "BOM_Supplier Part": "C108412",
+            "BOM_Supplier": "",
+            "puuid": "3f21a2531f5a413d88c730f61daca683",
+            "uuid": "7f9c6d4d878346f99916c580bc848141"
+          }
+        ],
+        [
+          "22pF",
+          4,
+          "C1206",
+          "C3,C2,C7,C6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C254078",
+            "BOM_Manufacturer": "Dersonic",
+            "BOM_Manufacturer Part": "CC1H0R5CA1BDCH4B10MF",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "023a253ac94e4751b99dc3833fd924d0"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C1206",
+          "C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C254078",
+            "BOM_Manufacturer": "Dersonic",
+            "BOM_Manufacturer Part": "CC1H0R5CA1BDCH4B10MF",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "023a253ac94e4751b99dc3833fd924d0"
+          }
+        ],
+        [
+          "PWR",
+          1,
+          "LED-TH_BD3.0_GREEN",
+          "LED5",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "204-10SYGD/S530-E3",
+            "BOM_Supplier Part": "C85161",
+            "BOM_Supplier": "",
+            "puuid": "52107c2975c74633a8d8f531ccb01bc4",
+            "uuid": "56f8b2b64a544f3d820bc0399720da54"
+          }
+        ],
+        [
+          "LED",
+          1,
+          "LED-TH_BD3.0_GREEN",
+          "LED6",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "204-10SYGD/S530-E3",
+            "BOM_Supplier Part": "C85161",
+            "BOM_Supplier": "",
+            "puuid": "52107c2975c74633a8d8f531ccb01bc4",
+            "uuid": "56f8b2b64a544f3d820bc0399720da54"
+          }
+        ],
+        [
+          "microUSB",
+          1,
+          "MICRO-USB-SMD_5P-P0.65-H-F_C10418",
+          "USB1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "micro USBFemale",
+            "BOM_Supplier Part": "C10418",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0213856b1ac9498c9a987141e7914387",
+            "uuid": "146e75363251e035203be60c60650418"
+          }
+        ],
+        [
+          "SWITCH,3*6*2.5",
+          1,
+          "SW-TH_L6.2-W3.6-LS8.0",
+          "SW1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BBJ",
+            "BOM_Manufacturer Part": "Switch,3*6*5Plastic head white,260G, 0.25mm,SMD",
+            "BOM_Supplier Part": "C71855",
+            "puuid": "5183f98579514d6185d44081fd8767d4",
+            "uuid": "441d52b82ec943fe96ee9d001e2ae477"
+          }
+        ],
+        [
+          "NRF24L01",
+          1,
+          "WIRELM-SMD_NRF24L01",
+          "MK1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Ai-Thinker",
+            "BOM_Manufacturer Part": "NRF24L01+功率加强版绑定2.4Gwireless module",
+            "BOM_Supplier Part": "C90751",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b4cb6e6f44a64822b1a75e418bd409f5",
+            "uuid": "595f1b159cbb1fc2159315f85f2042a1"
+          }
+        ],
+        [
+          "ATMEGA328-AU",
+          1,
+          "TQFP-32_L7.0-W7.0-P0.80-LS9.0-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C618731",
+            "BOM_Manufacturer": "MICROCHIP(美国微芯)",
+            "BOM_Manufacturer Part": "ATMEGA328-AU",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9c6dab9dc91e4b929269cb3454d6d713",
+            "uuid": "834b9c158a824ad4acb8dee1ca9bb962"
+          }
+        ],
+        [
+          "CH340G",
+          1,
+          "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BR",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "WCH",
+            "BOM_Manufacturer Part": "CH340G",
+            "BOM_Supplier Part": "C14267",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "fd1e58475e0644f8ad3022026b80de99",
+            "uuid": "6120522a8db139790c57da44f34e914a"
+          }
+        ],
+        [
+          "AMS1117-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C498120",
+            "BOM_Manufacturer": "HGC(Huaguan Semicon)",
+            "BOM_Manufacturer Part": "AMS1117-1.8",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "02ae667aca734971be8a5f58143dd564",
+            "uuid": "b81e1cee650540368411a5bb71b5b423"
+          }
+        ],
+        [
+          "PWR",
+          1,
+          "LED1206-RD",
+          "LED1",
+          {
+            "BOM_Manufacturer": "国星光电",
+            "BOM_Manufacturer Part": "NCD0805G1",
+            "BOM_Supplier Part": "C84260",
+            "BOM_Supplier": "",
+            "puuid": "3f21a2531f5a413d88c730f61daca683",
+            "uuid": "ba1f207f2c0447edbd5beb657b435022"
+          }
+        ],
+        [
+          "LED",
+          1,
+          "LED1206-RD",
+          "LED2",
+          {
+            "BOM_Manufacturer": "国星光电",
+            "BOM_Manufacturer Part": "NCD0805G1",
+            "BOM_Supplier Part": "C84260",
+            "BOM_Supplier": "",
+            "puuid": "3f21a2531f5a413d88c730f61daca683",
+            "uuid": "ba1f207f2c0447edbd5beb657b435022"
+          }
+        ],
+        [
+          "12MHz",
+          1,
+          "HC-49S_L11.0-W4.4-P4.88",
+          "X2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C1508959",
+            "BOM_Manufacturer": "JGHC(晶光华)",
+            "BOM_Manufacturer Part": "9AC10000202060",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a27d79934a5e450e8ec5b36942563cb2",
+            "uuid": "c13b927e4f49498d835e7a26b5481d31"
+          }
+        ],
+        [
+          "16MHz",
+          1,
+          "HC-49S_L11.0-W4.4-P4.88",
+          "X1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C1508959",
+            "BOM_Manufacturer": "JGHC(晶光华)",
+            "BOM_Manufacturer Part": "9AC10000202060",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a27d79934a5e450e8ec5b36942563cb2",
+            "uuid": "c13b927e4f49498d835e7a26b5481d31"
+          }
+        ],
+        [
+          "330",
+          4,
+          "R1206",
+          "R4,R2,R3,R5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "d1967012734640e5b2f2cc1ea764740b"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R1206",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "d1967012734640e5b2f2cc1ea764740b"
+          }
+        ]
+      ],
+      "updateTime": 1624603491,
+      "createTime": 1624603375,
+      "histories": [],
+      "created_at": "2021-06-25 12:12:55",
+      "updated_at": "2021-06-25 12:14:51"
+    }
+  ],
+  "sort": [
+    "8d3edf87d1b5477d7a6e3e70ab338606",
+    "ac36a2e61c73111e2cb7ba68397a9de9"
+  ],
+  "title": "Ground_Station",
+  "foldername": "Ground_Station",
+  "schfilename": "Ground_Station.json",
+  "schfilemtime": 1624603491987
+}
